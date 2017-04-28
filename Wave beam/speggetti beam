@@ -1,0 +1,5 @@
+i call this the speggetti beam because its makes speggetti.
+
+beam_y = ship_y + 2 * sin(.25 *(beam_x += 20)) + 16;
+
+i changed the first 20 into a 2.
