@@ -1,0 +1,7 @@
+this beam is mostly used for drilling into other planets. the beam in the middle is to transport minerals and other goodies.
+
+beam_y = ship_y + 20 * sin(.25 *(beam_x += 20)) + 16;
+
+beam2_y = ship_y + 2 * sin(.25 *(beam2_x += 20)) + 16;
+
+the only change is that there is a second beam and i changed the 20 to 2 in the second beam.
