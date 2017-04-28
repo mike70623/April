@@ -1,0 +1,5 @@
+The time FLux beam fires Fluxuations in time space to rip its foes apart.
+
+beam_y = ship_y + 2 * tan(.25 *(beam_x += 20)) + 16;
+
+i changed the sin to tan and kept the original change.
